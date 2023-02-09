@@ -45,7 +45,7 @@ class TmdbSpider(scrapy.Spider):
     #the url that we would use scrapy on it.
     start_urls = ['https://www.themoviedb.org/movie/207703-kingsman-the-secret-service']
 
-    def start_requests(self):
+    def requests(self):
         '''
             Goals:
             1, Start our request
